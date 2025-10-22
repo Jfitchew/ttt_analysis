@@ -1,19 +1,17 @@
-# 🎈 Blank app template
+# 2-up Time Trial Simulator
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit app to simulate a 2-up cycling time trial with configurable rider, course, and environment settings.  
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
+- Adjustable rider mass, CdA, FTP, target front power, and pull duration (independent for Rider A and B).
+- Adjustable air density, Crr, and placeholder wind/hill settings.
+- Course length (out-and-back).
+- Selectable plots:
+  - Rolling 1-min Normalised Power
+  - Cumulative NP since start
+  - Cumulative average power since start
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
